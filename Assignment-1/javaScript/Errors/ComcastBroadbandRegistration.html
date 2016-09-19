@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Comcast Broadband Services</title>
+		<script type="text/javascript" src="formValidator.js"></script>
+	</head>
+	<body>
+		<h3>Please Enter Your Details to apply for Broadband Booking:</h3>
+		<form action="">
+			<br>Full Name^: <input type="text" id="fName"><br><br>
+			Age: <input type="text" id="age"><br><br>
+			Purpose^: <input type="radio" name="purpose" value="home" checked="checked">Home Use<br>
+			<input type="radio" name="purpose" value="office">Office Use<br><br>
+			Contact Number^: <input type="text" id="phone"><br><br>
+			<button type="button" onclick="saveDetails()">Submit and Apply</button><br><br>
+			<i>^ shows Required Fields.</i><br><br>
+		</form>
+		<p><b id="msg"></b></p>
+	</body>
+</html>

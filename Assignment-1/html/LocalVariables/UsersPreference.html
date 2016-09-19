@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>User Preferences</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src='preferenceManager.js'></script>
+</head>
+<body onload = "startUp()">
+	<h3>We Keep Track of Users and their Preferences Using Local Storage:</h3>
+	<form id="myForm" class="form-group" action="">
+		User Name:<input id="userName" name="userName" type="text"></br></br>
+		Preferred Website:<input id="wsName" name="colorName" type="text"></br></br>
+		<button id="submit" onclick="saveDetails()">Submit</button>
+	</form>
+	<button id="clearLocalStorage" onclick="clearLocalStorage()">Clear Local Storage</button>
+	</br></br>
+	<h3 id="userHeader">List of Users who has Visited</h3>
+	<table id="usersTable" class="table-bordered table-striped" style="width:400px">
+		<tr>
+			<th>User Name</th>
+			<th>Preferred Website</th>
+		</tr>
+		
+	</table>
+</body>
+</html>

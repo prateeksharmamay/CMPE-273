@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="ISO-8859-1">
+	<title>Class Attendance Percentage Calculator</title>
+	<script type="text/javascript" src="classAttendance.js"></script>
+	</head>
+	<body>
+		<h3>Please Enter Students Details Below:</h3>
+		<form action="">
+			Student Name: <br><input type="text" id="sName"><br> <br>
+			Attendance (P for present /A for Absent):<br> <input type="text" id="sAttendance"><br> <br>
+			<button type='button' id="submitBtn" onclick="submitAttendance()">Submit</button>
+			<br><br>
+		</form>
+		<p id="classPerc"></p><br><br>
+		<button id="showTable" onclick="showTable()">Click to Show Students List</button>
+		<table id="studentsTable">
+			<tr>
+				<th>Name</th>
+				<th>Attendance</th>
+			</tr>
+		</table>
+	</body>
+</html>

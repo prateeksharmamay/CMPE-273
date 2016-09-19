@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Capturing Events in HTML</title>
+		<script type="text/javascript" src="captureHtmlEvents.js"></script>
+	</head>
+	<body onload="startup()">
+		<h3>Let's demonstrate Onmouseup, Onmousedown, onfocus, onfocusout and  Onclick Events</h3>
+		
+		<div style="border: 5px black solid;height: 200px;width: 300px" id="panelDiv" onmouseup="movingUp()" onmousedown="movingDown()">
+			<p id="textContent"></p>
+		</div>
+		
+		<h3>Like our Page and want to know more. Fill in your details, we will contact you.:</h3>
+		<form action="">
+			<br>Full Name: <input type="text" id="name" onfocus="highlight('name')" onfocusout="clearField('name')"><br>
+			<br>Address: <input type="text" id="address" onfocus="highlight('address')" onfocusout="clearField('address')"><br>
+			<br>Contact Number: <input type="text" id="nmbr" onfocus="highlight('nmbr')" onfocusout="clearField('nmbr')"><br>
+			<br><button type="button" onclick="submitForm()">Submit Details</button>
+		</form>
+	</body>
+</html>

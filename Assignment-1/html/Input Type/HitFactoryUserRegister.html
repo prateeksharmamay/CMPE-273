@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Hit Factory</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="designUserRegistration.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse text-center">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		        <img src="Hit_Factory_H1_mb_lead.jpg" class="img-thumbnail thumb-image">
+		    </div>
+		    <div class="text-center text-white text-size-40">
+		        The Hit Factory
+		    </div>
+		  </div>
+		</nav>
+
+	<div id="myCarousel" class="container-fluid aw-bg">
+		<div class="container-fluid text-center">
+			<h3 class="text-red"><u><b>Register with us to upload Music</u></b></h3>
+			<br>
+			<div class="col-md-2"></div>
+			<div class="col-md-8 vid-bg">
+				<div class="row">
+					<div class="col-sm-1"></div>
+
+					<div class="col-sm-10 text-left">
+						<br>
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="fullName">Full Name:</label>
+								<div class="col-sm-5">
+									<input type="text" class="form-control" id="fullName"
+										placeholder="Enter Full Name" autofocus="autofocus" required="required">
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+						
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="email">Email:</label>
+								<div class="col-sm-5">
+									<input type="email" class="form-control" id="email"
+										placeholder="Enter Your email" required="required">
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="phnno">Mobile Number:</label>
+								<div class="col-sm-5">
+									<input type="tel" class="form-control" id="phnno"
+										placeholder="Enter Mobile Number" pattern="[0-9]{10}" required="required">
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="DOB">Date of Birth:</label>
+								<div class="col-sm-5">
+									<input type="date" class="form-control" id="DOB"
+										placeholder="">
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="sex">Gender:</label>
+								<div class="col-sm-5">
+									<div class="radio">
+										<label><input type="radio" name="sex">Male</label>
+									</div>
+									<div class="radio">
+										<label><input type="radio" name="sex">Female</label>
+									</div>
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="media">Upload a Media file(.mp4,.mp3):</label>
+								<div class="col-sm-5">
+									<input type="file" class="form-control" id="media"
+										placeholder="Select a file from your machine" accept=".mp3,.mp4" required="required">
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="link">Paste a Media URL:</label>
+								<div class="col-sm-5">
+									<input type="url" class="form-control" id="link"
+										placeholder="Give us your Youtube URL">
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="rate">Select Rating of the Videos:</label>
+								<div class="col-sm-5">
+									<input type="number" class="form-control" id="rate"
+										placeholder="" min="1" max="10" value="1">
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<label class="control-label col-sm-3" for="pswrd">Enter a Password:</label>
+								<div class="col-sm-5">
+									<input type="password" class="form-control" id="pswrd"
+										placeholder="Enter a strong password" required="required">
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<div class="control-label col-sm-3"></div>
+								<div class="col-sm-5">
+									<button type="submit" class="btn btn-primary text-right" style="width:50%" 
+									onclick="">Submit</button>
+								</div>
+								<div class="col-sm-4"></div>
+							</div>
+							
+							<div class="form-group">
+								<div class="col-sm-offset-2 col-sm-10">
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-sm-1"></div>
+				</div>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<br>
+	</div>
+
+	<footer class="container-fluid text-center">
+		<p>Powered By Bootstrap</p>
+	</footer>
+</body>
+</html>

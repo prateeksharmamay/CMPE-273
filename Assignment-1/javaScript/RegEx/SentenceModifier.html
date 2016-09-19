@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Add words in your sentence</title>
+		<script type="text/javascript" src="sentenceModifier.js"></script>
+	</head>
+	<body>
+		<h3>We help you edit your Sentences by helping you add the words you want !!!</h3>
+		
+		<form action="">
+			Enter the Sentence you want to Edit:<br><input type="text" id="myString">
+			<br><br>
+			Enter the word you want to add to the sentence:<br><input type="text" id="addWord">
+			<br><br>
+			Enter the word from your sentence after which you want to add the above word<br><input type="text" id="posWord">
+			<br><br>
+			<button type="button" onclick="updateSentence()">Update the Sentence</button>
+		</form>
+		
+		<p>Your Updated sentence:</p>
+		<h3 id="newSentence"></h3>
+	</body>
+</html>

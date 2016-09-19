@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    footer {
+      background-color: #333;
+      color:#FFFFFF;
+      padding: 25px;
+    }
+  
+  .aw-bg{
+  	background-image: url("wallhaven-371266.png");
+  	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .vid-bg{
+  	background: linear-gradient(rgba(1,0,0,0.1), rgba(1,0,0,0.5));
+  	height: auto;
+  }
+  
+  .audio-bg{
+  	background: linear-gradient(rgba(1,0,0,0.1), rgba(1,0,0,0.5));
+  	height: 1757.92px;
+  }
+  
+  .text-white{
+  	color: #FFFFFF;
+  }
+  
+  .aw-bg{
+  	background-image: url("wallhaven-371266.png");
+  	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  .thumb-image{
+  	width:150px !important;
+  	height:50px !important;
+  }
+  
+  .text-size-40{
+  	font-size: 40px;
+  }
+  
+   h4{
+  	color:#e60000;
+  }

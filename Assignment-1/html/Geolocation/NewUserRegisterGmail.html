@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gmail Registration Form</title>
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="registrationFormDesign.css">
+<script type="text/javascript" src="gmailRegistration.js"></script>
+</head>
+<body onload="getUserPos()">
+	<nav class="navbar text-center" style="background: #F1F1F1;">
+		<div class="container-fluid">
+			<div class="navbar-header"></div>
+			<div class="text-center  text-size-40">Gmail Registration</div>
+		</div>
+	</nav>
+
+	<div id="myCarousel" class="container-fluid bg-image">
+		<div class="container-fluid text-center">
+			<h3 class="text-red">
+				<u><b>Create your own account with Google</u></b>
+			</h3>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-sm-5"></div>
+						<div class="col-sm-7 vid-bg text-left">
+						<br><br>
+							<form class="form-horizontal">
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="fullName">Full
+										Name:</label>
+									<div class="col-sm-5">
+										<input type="text" class="form-control" id="fullName"
+											placeholder="Enter Full Name" autofocus="autofocus"
+											required="required">
+									</div>
+									<div class="col-sm-4"></div>
+								</div>
+
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="country">Country:</label>
+									<div class="col-sm-5">
+										<input type="text" class="form-control" id="country"
+											placeholder="Enter Your Country" required="required">
+									</div>
+									<div class="col-sm-4"></div>
+								</div>
+
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="phnno">Mobile
+										Number:</label>
+									<div class="col-sm-5">
+										Country Code:<input type="text" class="form-control"
+											id="phnnoCode" style="display: inline; width: 115px">
+										<input type="tel" class="form-control" id="phnno"
+											placeholder="Enter Mobile Number" pattern="[0-9]{10}"
+											required="required">
+									</div>
+									<div class="col-sm-4"></div>
+								</div>
+
+								<div class="form-group">
+									<div class="control-label col-sm-3"></div>
+									<div class="col-sm-5"></div>
+									<div class="col-sm-4"></div>
+								</div>
+
+								<div class="form-group">
+									<label class="control-label col-sm-3" for="pswrd">Enter
+										a Password:</label>
+									<div class="col-sm-5">
+										<input type="password" class="form-control" id="pswrd"
+											placeholder="Enter a strong password" required="required">
+									</div>
+									<div class="col-sm-4"></div>
+								</div>
+
+								<div class="form-group">
+									<div class="control-label col-sm-3"></div>
+									<div class="col-sm-5">
+										<button type="submit" class="btn btn-primary text-right"
+											style="width: 50%" onclick="">Submit</button>
+									</div>
+									<div class="col-sm-4"></div>
+								</div>
+
+								<div class="form-group">
+									<div class="col-sm-offset-2 col-sm-10"></div>
+								</div>
+							</form>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 "></div>
+
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid text-center">
+		<p>Powered By Bootstrap</p>
+	</footer>
+</body>
+</html>
